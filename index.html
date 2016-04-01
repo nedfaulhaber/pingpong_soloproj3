@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src=js/jquery-1.12.2.js></script>
+    <script src=js/scripts.js></script>
+    <title>Ping Pong</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>Ping-Pong Time!</h1>
+      </div>
+
+      <form id="ping-pong">
+        <h2>Here's how to play:</h2>
+        <h4>Enter any number in the field provided and Ping-Pong will count up to that number with the following little surprises:</h4>
+          <ol>
+            <li>Numbers divisible by 3 are replaced with "ping"
+            <li>Numbers divisible by 5 are replaced with "pong"
+            <li>Numbers divisible by 5 are replaced with "pingpong"
+          </ol>
+        <div class="form-group">
+          <label class="sr-only" for="numberInput">Your Number</label>
+          <input type="text" class="form-control" id="numberInput" placeholder="Your Number">
+        </div>
+        <button type="submit" class="btn btn-info">Go!</button>
+      </form>
+      <div id="result">
+      </div>
+    </div>
+  </body>
+</html>

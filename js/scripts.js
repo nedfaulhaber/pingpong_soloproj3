@@ -11,8 +11,11 @@ $(document).ready(function() {
     event.preventDefault();
 
     var countTo = parseInt($("input#countTo").val());
-
+    var pingList = "";
     for (var index = 1; index <= countTo; index +=1) {
+      if (index % 3 === 0) {
+        pingList += "ping";
+      }
       $("#result").append(index + ", ")
     };
 

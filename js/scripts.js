@@ -1,11 +1,23 @@
-// business logic
 
 
 
 
-// user logic
-$(document).ready(function(){
+
+
+
+
+$(document).ready(function() {
+  $("form#ping-pong").submit(function(event) {
+    event.preventDefault();
+
+    var countTo = parseInt($("input#countTo").val());
+
+    for (var index = 1; index <= countTo; index +=1) {
+      if
+      $("#result").append(index + ", ")
+    };
+
+    $("#result").show();
+
+  });
 });
-$("form#ping-pong").submit(function(event) {
-  event.preventDefault();
-var number = parseInt($("numberInput").val());

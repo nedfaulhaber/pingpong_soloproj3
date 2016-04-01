@@ -13,7 +13,6 @@ $(document).ready(function() {
     var countTo = parseInt($("input#countTo").val());
 
     for (var index = 1; index <= countTo; index +=1) {
-      if
       $("#result").append(index + ", ")
     };
 

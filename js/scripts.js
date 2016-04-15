@@ -5,7 +5,7 @@ var pong = "Pong";
 var pingPongArray = [];
 
 var pingPong = function(number) {
-	for (index = 1; index <= countTo; index += 1) {
+	for (index = 1; index <= number; index += 1) {
 
 		if ((index % 3 === 0) && (index % 5 === 0))  {
 		    pingPongArray.push(ping + pong);
@@ -22,8 +22,12 @@ var pingPong = function(number) {
 			pingPongArray.push(index);
 	  }
 
+	}
+
+	return {
 
 	}
+
 };
 
 //user interface logic
@@ -40,7 +44,7 @@ $(document).ready(function() {
       $("#result").append("<li>" + number + "</li>");
     });
 
-
-
+		$("#countTo").val("");
+		
   });
 });

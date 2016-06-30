@@ -4,7 +4,7 @@
 
 ## Description
 
-_This project was for Epicodus Intro to Programming class and was designed to practice the concepts of arrays and looping. The goal of the project was to create a page where a user can ._
+_This project was for Epicodus Intro to Programming class and was designed to practice the concepts of arrays and looping. The goal of the project was to create a page where a user can enter any number and the page will display all numbers between 1 and that number, but replacing all numbers divisible by 3, 5, or 15 with "ping", "pong", or "pingpong"._
 
 ## Setup/Installation Requirements
 
